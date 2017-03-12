@@ -1,0 +1,5 @@
+package com.pattern.templateMethod;
+
+public abstract class AbstGameConnectHelper {
+
+}

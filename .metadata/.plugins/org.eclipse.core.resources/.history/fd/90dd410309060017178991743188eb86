@@ -1,0 +1,43 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class AllTests2 {
+
+	@Test
+	public void testSum() {
+		assertTrue(Calculator.sum(4,5)==9);
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSubtract() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiply() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivide() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testCeil() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testFloor() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testAbs() {
+		fail("Not yet implemented");
+	}
+
+}

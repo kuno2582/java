@@ -1,0 +1,16 @@
+/*
+반복문
+ - 원하는 특정 문장을 정해진 규칙에 따라 반복처리하기 위한 제어문
+ - 모든 반복문은 무한루프에 빠지지 않도록 주의
+
+*/
+public class ForEx01 {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}

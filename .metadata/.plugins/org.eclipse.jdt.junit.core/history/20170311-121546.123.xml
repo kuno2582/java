@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllTests2" project="ch07-junit" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="AllTests2" time="0.001">
+    <testcase name="testSum" classname="AllTests2" time="0.0"/>
+    <testcase name="testSubtract" classname="AllTests2" time="0.0"/>
+    <testcase name="testDivide" classname="AllTests2" time="0.0"/>
+    <testcase name="testMultiply" classname="AllTests2" time="0.0"/>
+  </testsuite>
+</testrun>

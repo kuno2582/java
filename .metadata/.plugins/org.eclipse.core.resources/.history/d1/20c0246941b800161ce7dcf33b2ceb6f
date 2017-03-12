@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+//입력값 누적 합계 구하기
+
+public class WhileEx04 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		int i;
+		int sum = 0;
+		
+		System.out.println("")
+		
+		While(i == 0){
+			System.out.println("값을 입력해주세요 > ");
+		}
+
+	}
+
+}

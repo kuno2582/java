@@ -1,0 +1,58 @@
+package com.ext5;
+/*
+
+객체간의 형변환
+
+상향 형변환(Upcasting)
+ - 자식클래스 타입에서 부모클래스 타입으로 변경
+ - 자동적으로 형변환
+ 
+하향 형변환(Downcasting)
+ - 부모클래스 타입에서 자식클래스 타입으로 변경
+ - 명시적으로 형변환
+ 
+ 
+ 
+호출영역
+객체 생성시 자료형 지정		호출영역
+자식클래스 타입지정			부모클래스 + 자식클래스 모두 호출 가능
+부모클래스 타입지정			부모클래스
+
+*/
+
+class Parent {
+	
+	int a = 100;
+}
+
+class Child extends Parent {
+	
+	int b = 200;
+}
+
+public class Exten01 {
+
+	public static void main(String[] args) {
+		
+		Child ch = new Child();
+		System.out.println(ch.a);
+		System.out.println(ch.b);
+		
+		System.out.println("업캐스팅(자식->부모)");
+		Parent pa = ch;
+		System.out.println(pa.a);
+		//System.out.println(pa.b);
+		
+		System.out.println("다운캐스팅(부모->자식)");
+		Child ch2 = (Child)pa;
+		System.out.println(ch2.a);
+		System.out.println(ch2.b);
+		
+		System.out.println("연습");
+		Child ch3 = (Child)new Parent();
+		//System.out.println(ch3.a);
+		//System.out.println(ch3.b);
+		
+	}
+
+}
